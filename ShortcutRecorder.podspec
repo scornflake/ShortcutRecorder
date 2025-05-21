@@ -3,12 +3,12 @@ Pod::Spec.new do |s|
   s.name = 'ShortcutRecorder'
   s.version = '3.3.0'
   s.summary = 'The best control to record shortcuts on macOS'
-  s.homepage = 'https://github.com/Kentzo/ShortcutRecorder'
+  s.homepage = 'https://github.com/scornflake/ShortcutRecorder'
   s.license = { :type => 'CC BY 4.0', :file => 'LICENSE.txt' }
   s.author = { 'Ilya Kulakov' => 'kulakov.ilya@gmail.com' }
   s.screenshot = 'https://user-images.githubusercontent.com/88809/67132003-e4b8b780-f1bb-11e9-984d-2c88fc8c2286.gif'
 
-  s.source = { :git => 'https://github.com/Kentzo/ShortcutRecorder.git', :tag => s.version }
+  s.source = { :git => 'https://github.com/scornflake/ShortcutRecorder.git', :tag => s.version }
 
   s.platform = :osx
   s.osx.deployment_target = "10.11"
